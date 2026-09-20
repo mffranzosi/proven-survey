@@ -5,7 +5,7 @@ import "./globals.css";
 const dmSans = DM_Sans({ subsets: ["latin"], weight: ["400", "500", "700"] });
 
 export const metadata: Metadata = {
-  title: "PROVEN — Quick survey",
+  title: "PROVEN: Quick survey",
   description: "A one-minute survey on hiring in the age of AI.",
   robots: { index: false, follow: false },
 };

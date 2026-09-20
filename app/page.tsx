@@ -170,11 +170,8 @@ export default function Survey() {
       {stage === "cover" && (
         <section className="screen">
           <Logo className="brandmark" />
-          <h1>Lorem ipsum dolor sit amet</h1>
-          <p className="lead">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
-          </p>
+          <h1>AI has changed recruitment. What is your take?</h1>
+          <p className="lead">4 quick taps. Anonymous. Your personal result is waiting at the end.</p>
           <button className="btn primary" onClick={() => setStage("role")}>
             Start
           </button>
@@ -223,7 +220,7 @@ export default function Survey() {
         <section className="screen">
           <h2>Thank you. Want us to keep in touch?</h2>
           <p className="lead">
-            Leave your details to receive the PROVEN newsletter. Your survey answers stay
+            Leave your details to remain in touch with more news about PROVEN. Your survey answers stay
             anonymous and are never linked to your name.
           </p>
           <form className="form" onSubmit={sendContact}>
@@ -262,8 +259,8 @@ export default function Survey() {
             <label className="check">
               <input type="checkbox" checked={consent} onChange={(e) => setConsent(e.target.checked)} />
               <span>
-                Yes, subscribe me to the PROVEN newsletter. I can unsubscribe at any time. See
-                the <a href={LINKS.privacy}>privacy policy</a>.
+                Yes, keep me updated with news about PROVEN. I can unsubscribe at any time. See
+                the <a href={LINKS.privacy} target="_blank" rel="noopener noreferrer">privacy policy</a>.
               </span>
             </label>
             {contactError && <p className="err">Something went wrong. Please try again.</p>}

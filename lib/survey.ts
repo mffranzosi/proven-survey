@@ -35,12 +35,12 @@ export const QUESTIONS: Record<Track, Question[]> = {
   b2b: [
     {
       title:
-        "AI now shapes many applications.\nDid it change how confident you are in judging real skills?",
+        "AI now shapes many applications.\nDid it change your confidence in judging real skills?",
       options: ["More confident now", "No change", "A bit less confident", "Much less confident"],
     },
     {
       title:
-        "Volume of applications has generally increased.\nHow did it change the quality of your shortlists?",
+        "The volume of applications has generally increased.\nHas the quality of your shortlists changed?",
       options: ["Better", "Same", "Worse", "Much worse"],
     },
     {
@@ -63,10 +63,10 @@ export const QUESTIONS: Record<Track, Question[]> = {
       title:
         "How has the use of AI in recruitment and hiring processes affected your experience?",
       options: [
-        "Positively — it's helped me stand out",
+        "Positively: it's helped me stand out",
         "No real change",
-        "Negatively — harder to show my real skills",
-        "Very negatively — I feel invisible in the process",
+        "Negatively: harder to show my real skills",
+        "Very negatively: I feel invisible in the process",
       ],
     },
     {
@@ -171,5 +171,5 @@ export function closerFor(track: Track, roleId: string): string {
 export const LINKS = {
   learnMore: "https://provenvalidation.com/refer/mf",
   bookCall: "https://calendar.app.google/yvLhzAsk7gezVVCa7",
-  privacy: "#privacy-policy-placeholder",
+  privacy: "https://provenvalidation.com/privacy",
 };
